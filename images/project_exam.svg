@@ -1,0 +1,30 @@
+<svg width="400" height="200" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="200" rx="16" fill="#0d111b"/>
+  <circle cx="200" cy="100" r="70" fill="url(#glowGrad)" opacity="0.08" filter="blur(20px)"/>
+
+  <!-- Centered Minimalist Secure Examination Icon -->
+  <g transform="translate(165, 50)">
+    <!-- Clipboard/Exam paper -->
+    <path d="M15 15 H65 V75 H15 V15 Z" stroke="url(#accentGrad)" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Paper clip top -->
+    <path d="M30 15 V10 H50 V15" stroke="url(#accentGrad)" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Line checks inside paper -->
+    <line x1="25" y1="30" x2="45" y2="30" stroke="url(#accentGrad)" stroke-width="2" stroke-linecap="round"/>
+    <line x1="25" y1="45" x2="55" y2="45" stroke="url(#accentGrad)" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Padlock representing security in examinations on bottom right -->
+    <rect x="50" y="55" width="22" height="16" rx="3" fill="#0d111b" stroke="#06b6d4" stroke-width="2.5"/>
+    <path d="M56 55 V50 C56 46, 66 46, 66 50 V55" stroke="#06b6d4" stroke-width="2"/>
+  </g>
+
+  <defs>
+    <linearGradient id="glowGrad" x1="0" y1="0" x2="400" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06b6d4"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="100" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06b6d4"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+</svg>

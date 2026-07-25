@@ -1,0 +1,29 @@
+<svg width="400" height="200" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="200" rx="16" fill="#0d111b"/>
+  <circle cx="200" cy="100" r="70" fill="url(#glowGrad)" opacity="0.08" filter="blur(20px)"/>
+
+  <!-- Centered Minimalist Student/Member Icon -->
+  <g transform="translate(160, 50)">
+    <!-- Graduation Cap Mortarboard top -->
+    <path d="M40 10 L75 25 L40 40 L5 25 Z" stroke="url(#accentGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Cap Base -->
+    <path d="M20 33 V48 C20 54, 60 54, 60 48 V33" stroke="url(#accentGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Tassel -->
+    <path d="M70 25 V45 C70 48, 66 50, 66 50" stroke="#06b6d4" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Student Profile Card mini silhouette on bottom left -->
+    <circle cx="10" cy="65" r="8" stroke="url(#accentGrad)" stroke-width="2.5"/>
+    <path d="M0 80 C0 74, 5 74, 10 74 C15 74, 20 74, 20 80" stroke="url(#accentGrad)" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+
+  <defs>
+    <linearGradient id="glowGrad" x1="0" y1="0" x2="400" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="100" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+</svg>

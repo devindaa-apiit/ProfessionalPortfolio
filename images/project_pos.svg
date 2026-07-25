@@ -1,0 +1,32 @@
+<svg width="400" height="200" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark Background matching the theme -->
+  <rect width="400" height="200" rx="16" fill="#0d111b"/>
+  
+  <!-- Subtle background glow -->
+  <circle cx="200" cy="100" r="70" fill="url(#glowGrad)" opacity="0.08" filter="blur(20px)"/>
+
+  <!-- Centered Minimalist POS Icon -->
+  <g transform="translate(160, 50)">
+    <!-- Shopping Cart Basket -->
+    <path d="M5 10 h15 l15 45 h40 l12 -30 h-62" stroke="url(#accentGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Wheels -->
+    <circle cx="38" cy="65" r="7" stroke="url(#accentGrad)" stroke-width="3"/>
+    <circle cx="68" cy="65" r="7" stroke="url(#accentGrad)" stroke-width="3"/>
+    <!-- Barcode Scanner Beam -->
+    <line x1="-5" y1="25" x2="90" y2="25" stroke="#06b6d4" stroke-width="2.5" stroke-dasharray="4 4" opacity="0.8"/>
+  </g>
+
+  <defs>
+    <linearGradient id="glowGrad" x1="0" y1="0" x2="400" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="100" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+</svg>

@@ -1,0 +1,23 @@
+<svg width="400" height="200" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="200" rx="16" fill="#0d111b"/>
+  <circle cx="200" cy="100" r="70" fill="url(#glowGrad)" opacity="0.08" filter="blur(20px)"/>
+
+  <!-- Centered Minimalist Medical Logistics Icon -->
+  <g transform="translate(165, 50)">
+    <!-- Shield Outline representing management & protection -->
+    <path d="M40 5 L10 15 V45 C10 65, 40 80, 40 80 C40 80, 70 65, 70 45 V15 L40 5 Z" stroke="url(#accentGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Medical Cross inside -->
+    <path d="M40 25 V55 M25 40 H55" stroke="url(#accentGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <defs>
+    <linearGradient id="glowGrad" x1="0" y1="0" x2="400" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06b6d4"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="100" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06b6d4"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+</svg>
